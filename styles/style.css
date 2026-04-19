@@ -15,3 +15,27 @@
   font-weight:400;
   font-style: normal;
 }
+
+ /* shared styles */
+ .display-flex{
+  display: flex;
+ }
+:root{
+  --primary-color: rgba(58, 58, 58, 1);
+}
+
+ /* nav style  */
+ .brand{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+ }
+nav li{
+  font-weight: 600;
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  color: var(--primary-color);
+
+}
