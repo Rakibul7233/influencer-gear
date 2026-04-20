@@ -22,13 +22,31 @@
  }
 :root{
   --primary-color: rgba(58, 58, 58, 1);
+  --bnt-color: rgba(224, 44, 109, 1);
+}
+.primary-btn{
+  padding: 10px 24px;
+  border-radius: 41px;
+  background-color: var(--bnt-color);
+  color: white;
+  border: none;
+  font-weight: bold;
+
 }
 
  /* nav style  */
+ header{
+  max-width: 1200px;
+  margin: 80px auto;
+ }
  .brand{
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary-color);
+ }
+ nav{
+  align-items: center;
+  justify-content: space-between;
  }
 nav li{
   font-weight: 600;
@@ -37,5 +55,55 @@ nav li{
 nav a{
   text-decoration: none;
   color: var(--primary-color);
+  padding: 0 15px;
 
+}
+
+/* banner style  */
+.banner{
+  justify-content: space-between;
+}
+.banner-text{
+  max-width: 580px;
+  margin-top: 145px;
+}
+.banner-title{
+  font-size: 3.0rem;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+.banner-description{
+  font-weight: 600px;
+}
+
+.banner-img{
+  margin-top: 50px;
+  max-width: 475px;
+  max-height: 475px;
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-img img{
+  width: 100%;
+}
+
+
+
+/* responsive for max-576px  */
+@media screen and (max-width:576px) {
+  nav, nav ul {
+    flex-direction: column;
+  }
+  .banner{
+    flex-direction: column-reverse;
+    margin: 20px;
+  }
+  .banner-text{
+    text-align: center;
+  }
+  .banner-title{
+    font-size: 2.2rem;
+  }
+  
 }
