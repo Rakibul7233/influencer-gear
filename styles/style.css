@@ -105,6 +105,57 @@ main{
   width: 80px;
 }
 
+/* popular collection */
+.popular-collection{
+  margin-top: 100px;
+  max-width: 1047px;
+  
+}
+.collection-title{
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 50px;
+
+}
+
+/* card style  */
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.card{
+  width: 329px;
+  padding: 14px;
+  border-radius: 16px;
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .1);
+  
+}
+.card img{
+  width: 100%;
+}
+.card-title{
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+  color: rgba(24, 25, 31, 1);
+}
+.card-price{
+  font-size: 1.2rem;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.87);
+}
+#rating{
+  width: 125px;
+}
+.box-descripton{
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-top: 0;
+  color: rgba(120, 120, 133, 1);
+}
+
 
 
 /* responsive for max-576px  */
@@ -130,6 +181,12 @@ main{
   .sponsors img{
   width: 50px;
   margin:10px 20px;
+}
+.card-container{
+  /* grid-template-columns: 1fr; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
   
 }
