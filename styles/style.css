@@ -21,7 +21,7 @@
   display: flex;
  }
 :root{
-  --primary-color: rgba(58, 58, 58, 1);
+  --primary-color: rgb(58, 58, 58);
   --bnt-color: rgba(224, 44, 109, 1);
 }
 .primary-btn{
@@ -87,6 +87,23 @@ nav a{
 .banner-img img{
   width: 100%;
 }
+/* banner section  */
+main{
+  max-width: 1200px;
+  margin: 100px auto;
+}
+/* sponsors section  */
+.sponsors{
+  justify-content: space-around;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, white, rgb(220, 219, 219), white) 1;
+  padding: 36px;
+  margin: 0 45px;
+}
+.sponsors img{
+  width: 80px;
+}
 
 
 
@@ -105,5 +122,14 @@ nav a{
   .banner-title{
     font-size: 2.2rem;
   }
+  .sponsors{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:0 ;
+  }
+  .sponsors img{
+  width: 50px;
+  margin:10px 20px;
+}
   
 }
