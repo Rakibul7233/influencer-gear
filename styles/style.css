@@ -183,6 +183,33 @@ main{
   font-size: 1.2rem;
 }
 
+/* Footer section  */
+footer{
+  background-color: rgba(10, 8, 38, 1);
+  display: flex;
+}
+.footer-box{
+  color: white;
+  margin: 50px auto;
+  text-align: center;
+}
+.footer-title{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.footer-description{
+  font-size: .9rem;
+}
+.social-icon{
+
+  gap: 16px;
+}
+
+.social-icon i{
+  font-size: 32px;
+  margin-right: 16px;
+}
+
 
 
 /* responsive for max-576px  */
