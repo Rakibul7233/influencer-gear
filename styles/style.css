@@ -182,6 +182,9 @@ main{
   border-radius: 0;
   font-size: 1.2rem;
 }
+.featured-products{
+  text-align: center;
+}
 
 /* Footer section  */
 footer{
@@ -245,8 +248,8 @@ footer{
 .see-more{
   margin-right: 50px;
 }
-  
+.feature-img img{
+  width: 100%;
 }
-.featured-products{
-  text-align: center;
+  
 }
